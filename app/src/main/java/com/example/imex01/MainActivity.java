@@ -28,12 +28,15 @@ public class MainActivity extends AppCompatActivity {
         num = rnd.nextInt(3)+1;
         if (num==1){
             iM.setImageResource(R.drawable.num1);
+            btn1.setText("1");
         }
         if (num==2){
             iM.setImageResource(R.drawable.num2);
+            btn1.setText("2");
         }
         if (num==3){
             iM.setImageResource(R.drawable.num3);
+            btn1.setText("3");
         }
     }
 }
